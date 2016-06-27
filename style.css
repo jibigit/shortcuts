@@ -79,3 +79,27 @@ img {
 	font-size: 50%;
 	width: 100%;
 }
+
+@media screen and (max-width:500px) {
+
+	.table tbody {
+		font-size: 50%;
+	}
+
+
+	code {
+		font-size: 10px;
+	}
+
+@media screen and (max-width:400px) {
+
+.table tbody {
+		font-size: 9px;
+		
+	}
+	code {
+		font-size: 7px;
+		display: inline;		
+			}
+
+}
